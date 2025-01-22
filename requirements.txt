@@ -94,3 +94,4 @@ python-dotenv
 
 # Apache Kafka Python client
 kafka-python
+
