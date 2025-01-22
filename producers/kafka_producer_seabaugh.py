@@ -65,11 +65,16 @@ def generate_messages(producer, topic, interval_secs):
 
     """
     string_list: list = [
-        "I love Python!",
-        "Kafka is awesome.",
-        "Streaming data is fun.",
-        "This is a buzz message.",
-        "Have a great day!",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "My code works... I think.",
+    "Kafka producer: now with extra buzz.",
+    "I put the 'stream' in data streaming.",
+    "404: Funny message not found.",
+    "Parallel universes exist. In one, my code works on the first try.",
+    "Debugging: where you stare at code until it stares back.",
+    "The cake is a lie, but the topic is real.",
+    "There are 10 types of people: those who understand binary and those who don't.",
+    "I'm not lazy, just buffering.",
     ]
     try:
         while True:
