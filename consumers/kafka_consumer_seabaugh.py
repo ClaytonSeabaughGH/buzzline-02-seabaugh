@@ -10,6 +10,7 @@ Consume messages from a Kafka topic and process them.
 
 # Import packages from Python Standard Library
 import os
+import re
 
 # Import external packages
 from dotenv import load_dotenv
@@ -45,21 +46,26 @@ def get_kafka_consumer_group_id() -> int:
 
 #####################################
 # Define a function to process a single message
-# #####################################
+#####################################
 
 
 def process_message(message: str) -> None:
     """
     Process a single message.
 
-    For now, this function simply logs the message.
-    You can extend it to perform other tasks, like counting words
-    or storing data in a database.
+    This function logs the message and generates alerts if the message matches a specific pattern.
 
     Args:
         message (str): The message to process.
     """
     logger.info(f"Processing message: {message}")
+
+    # Define the alert pattern
+    alert_pattern = re.compile(r"(binary|debugging|error|buzz)", re.IGNORECASE)
+
+    # Check if the message matches the alert pattern
+    if alert_pattern.search(message):
+        logger.warning(f"ALERT! Message matched pattern: {message}")
 
 
 #####################################
@@ -77,7 +83,7 @@ def main() -> None:
     """
     logger.info("START consumer.")
 
-    # fetch .env content
+    # Fetch .env content
     topic = get_kafka_topic()
     group_id = get_kafka_consumer_group_id()
     logger.info(f"Consumer: Topic '{topic}' and group '{group_id}'...")
@@ -85,7 +91,7 @@ def main() -> None:
     # Create the Kafka consumer using the helpful utility function.
     consumer = create_kafka_consumer(topic, group_id)
 
-     # Poll and process messages
+    # Poll and process messages
     logger.info(f"Polling messages from topic '{topic}'...")
     try:
         for message in consumer:

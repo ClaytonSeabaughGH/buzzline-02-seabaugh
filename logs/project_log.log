@@ -193,3 +193,369 @@
 2025-01-22 14:20:50.294 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
 2025-01-22 14:20:50.294 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
 2025-01-22 14:20:52.314 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-22 14:24:34.041 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:24:34.043 | INFO     | __main__:main:84 - START consumer.
+2025-01-22 14:24:34.043 | INFO     | __main__:get_kafka_topic:36 - Kafka topic: buzzline
+2025-01-22 14:24:34.043 | INFO     | __main__:get_kafka_consumer_group_id:43 - Kafka consumer group id: default_group
+2025-01-22 14:24:34.043 | INFO     | __main__:main:89 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-22 14:24:34.043 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 14:24:34.044 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-22 14:24:36.068 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-22 14:25:08.991 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:25:08.992 | INFO     | __main__:main:108 - START producer.
+2025-01-22 14:25:08.992 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:25:13.080 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-22 14:25:13.081 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-22 14:26:16.337 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:26:16.338 | INFO     | __main__:main:103 - START producer.
+2025-01-22 14:26:16.338 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:26:20.406 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-22 14:26:20.408 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-22 14:35:03.912 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:35:03.914 | INFO     | __main__:main:103 - START producer.
+2025-01-22 14:35:03.914 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:35:20.772 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:35:20.774 | INFO     | __main__:main:108 - START producer.
+2025-01-22 14:35:20.774 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:35:24.871 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-22 14:35:24.872 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-22 14:37:21.345 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:37:21.346 | INFO     | __main__:main:108 - START producer.
+2025-01-22 14:37:21.346 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:37:25.450 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-22 14:37:25.450 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-22 14:37:44.855 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 14:37:44.857 | INFO     | __main__:main:103 - START producer.
+2025-01-22 14:37:44.857 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 14:37:48.963 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-22 14:37:48.963 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-22 15:41:52.721 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 15:41:52.725 | INFO     | __main__:main:84 - START consumer.
+2025-01-22 15:41:52.725 | INFO     | __main__:get_kafka_topic:36 - Kafka topic: buzzline
+2025-01-22 15:41:52.726 | INFO     | __main__:get_kafka_consumer_group_id:43 - Kafka consumer group id: default_group
+2025-01-22 15:41:52.726 | INFO     | __main__:main:89 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-22 15:41:52.726 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 15:41:52.726 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-22 15:41:54.744 | ERROR    | utils.utils_consumer:create_kafka_consumer:60 - Error creating Kafka consumer: NoBrokersAvailable
+2025-01-22 17:37:38.204 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 17:37:38.205 | INFO     | __main__:main:108 - START producer.
+2025-01-22 17:37:38.206 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 17:37:38.209 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-22 17:37:38.209 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:37:38.532 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'TQDKsOTUQiuJELMUvEbCRw', 'controller_id': 1001}
+2025-01-22 17:37:38.536 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-22 17:37:38.537 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-22 17:37:38.538 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:37:38.539 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-22 17:37:38.650 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-22 17:37:38.651 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:37:38.975 | INFO     | utils.utils_producer:create_kafka_topic:176 - Creating 'buzzline'.
+2025-01-22 17:37:39.106 | INFO     | utils.utils_producer:create_kafka_topic:181 - Topic 'buzzline' created successfully.
+2025-01-22 17:37:39.106 | INFO     | __main__:main:124 - Kafka topic 'buzzline' is ready.
+2025-01-22 17:37:39.106 | INFO     | __main__:main:130 - Starting message production to topic 'buzzline'...
+2025-01-22 17:37:39.106 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:37:39.111 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:37:40.112 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:37:40.112 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:37:41.113 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:37:41.113 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:37:42.114 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:37:42.114 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:37:43.116 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:37:43.117 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:37:44.119 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:37:44.119 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:37:45.120 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:37:45.122 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:37:46.124 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:37:46.124 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:37:47.125 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:37:47.125 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:37:48.127 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:37:48.127 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:37:49.128 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:37:49.129 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:37:50.131 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:37:50.131 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:37:51.132 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:37:51.132 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:37:52.134 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:37:52.135 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:37:53.137 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:37:53.138 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:37:54.139 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:37:54.140 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:37:55.141 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:37:55.143 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:37:56.146 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:37:56.147 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:37:57.148 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:37:57.149 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:37:58.149 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:37:58.151 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:37:59.152 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:37:59.153 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:00.153 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:38:00.153 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:38:01.154 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:38:01.154 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:38:02.155 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:38:02.156 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:38:03.158 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:38:03.160 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:38:04.161 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:04.162 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:05.163 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:05.165 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:06.167 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:38:06.167 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:38:07.168 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:07.168 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:08.169 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:38:08.169 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:38:09.171 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:09.173 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:10.175 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:38:10.175 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:38:11.178 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:38:11.181 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:38:12.182 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:38:12.183 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:38:13.185 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:38:13.185 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:38:14.186 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:14.187 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:15.189 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:15.190 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:16.193 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:38:16.194 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:38:17.196 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:17.198 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:18.199 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:38:18.199 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:38:19.201 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:19.202 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:20.204 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:38:20.206 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:38:21.207 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:38:21.208 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:38:22.209 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:38:22.209 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:38:23.211 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:38:23.211 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:38:23.316 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 17:38:23.317 | INFO     | __main__:main:78 - START consumer.
+2025-01-22 17:38:23.317 | INFO     | __main__:get_kafka_topic:35 - Kafka topic: buzzline
+2025-01-22 17:38:23.317 | INFO     | __main__:get_kafka_consumer_group_id:42 - Kafka consumer group id: default_group
+2025-01-22 17:38:23.317 | INFO     | __main__:main:83 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-22 17:38:23.318 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:38:23.318 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-22 17:38:23.427 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-22 17:38:23.429 | INFO     | __main__:main:89 - Polling messages from topic 'buzzline'...
+2025-01-22 17:38:24.212 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.213 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.828 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:24.828 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:24.829 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:24.829 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:24.829 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:24.830 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.830 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:24.830 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:24.831 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:24.831 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:24.832 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:24.832 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:24.832 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:24.832 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:24.833 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:24.833 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.833 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:24.834 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:24.834 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:24.835 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:24.835 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:24.835 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:24.835 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:24.836 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:24.837 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:24.837 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.838 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:24.838 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:24.838 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:24.839 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:24.839 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:24.839 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:24.840 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:24.840 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:24.840 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:24.841 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:24.841 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:24.841 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:24.842 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:24.842 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:24.842 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:24.842 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:24.843 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:24.843 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:24.843 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:24.843 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:25.214 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:25.215 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:25.219 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:26.216 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:38:26.218 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:38:26.223 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:27.220 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:27.222 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:27.228 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:28.224 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:38:28.226 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:38:28.231 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:29.228 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:29.230 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:29.236 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:30.231 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:38:30.232 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:38:30.238 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:31.234 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:38:31.236 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:38:31.240 | INFO     | __main__:process_message:62 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:38:32.238 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:38:32.239 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:38:32.244 | INFO     | __main__:process_message:62 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:38:33.241 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:38:33.243 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:38:33.249 | INFO     | __main__:process_message:62 - Processing message: 404: Funny message not found.
+2025-01-22 17:38:34.244 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:34.246 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:34.249 | INFO     | __main__:process_message:62 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:38:35.247 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:35.249 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:35.253 | INFO     | __main__:process_message:62 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:38:36.250 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:38:36.251 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:38:36.257 | INFO     | __main__:process_message:62 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:38:37.254 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:37.256 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:37.262 | INFO     | __main__:process_message:62 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:38:38.257 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:38:38.259 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:38:38.263 | INFO     | __main__:process_message:62 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:38:39.260 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:39.260 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:39.263 | INFO     | __main__:process_message:62 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:38:40.261 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:38:40.263 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:38:40.269 | INFO     | __main__:process_message:62 - Processing message: My code works... I think.
+2025-01-22 17:38:40.643 | WARNING  | __main__:generate_messages:87 - Producer interrupted by user.
+2025-01-22 17:38:40.645 | INFO     | __main__:generate_messages:92 - Kafka producer closed.
+2025-01-22 17:38:40.646 | INFO     | __main__:main:133 - END producer.
+2025-01-22 17:38:42.629 | WARNING  | __main__:main:96 - Consumer interrupted by user.
+2025-01-22 17:38:42.634 | INFO     | __main__:main:101 - Kafka consumer for topic 'buzzline' closed.
+2025-01-22 17:38:42.635 | INFO     | __main__:main:103 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-22 17:39:54.016 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 17:39:54.017 | INFO     | __main__:main:108 - START producer.
+2025-01-22 17:39:54.018 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-22 17:39:54.021 | INFO     | utils.utils_producer:check_zookeeper_service_is_ready:79 - Zookeeper is ready at localhost:2181.
+2025-01-22 17:39:54.022 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:39:54.346 | INFO     | utils.utils_producer:check_kafka_service_is_ready:98 - Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'TQDKsOTUQiuJELMUvEbCRw', 'controller_id': 1001}
+2025-01-22 17:39:54.347 | INFO     | __main__:get_kafka_topic:41 - Kafka topic: buzzline
+2025-01-22 17:39:54.347 | INFO     | __main__:get_message_interval:48 - Message interval: 1 seconds
+2025-01-22 17:39:54.347 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:39:54.348 | INFO     | utils.utils_producer:create_kafka_producer:146 - Connecting to Kafka broker at localhost:9092...
+2025-01-22 17:39:54.453 | INFO     | utils.utils_producer:create_kafka_producer:151 - Kafka producer successfully created.
+2025-01-22 17:39:54.453 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:39:54.768 | INFO     | utils.utils_producer:create_kafka_topic:172 - Topic 'buzzline' already exists. Clearing it out...
+2025-01-22 17:39:54.768 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:39:55.102 | ERROR    | utils.utils_producer:clear_kafka_topic:235 - Error managing retention for topic 'buzzline': list indices must be integers or slices, not ConfigResource
+2025-01-22 17:39:55.102 | INFO     | __main__:main:124 - Kafka topic 'buzzline' is ready.
+2025-01-22 17:39:55.103 | INFO     | __main__:main:130 - Starting message production to topic 'buzzline'...
+2025-01-22 17:39:55.103 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:39:55.105 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:39:56.105 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:39:56.107 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:39:57.109 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:39:57.110 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:39:58.111 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:39:58.111 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:39:59.113 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:39:59.116 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:40:00.118 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:00.119 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:01.121 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:01.122 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:02.124 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:40:02.125 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:40:03.127 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:03.129 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:04.131 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:40:04.131 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:40:05.133 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:05.135 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:06.136 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:40:06.136 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:40:06.140 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-22 17:40:06.141 | INFO     | __main__:main:84 - START consumer.
+2025-01-22 17:40:06.142 | INFO     | __main__:get_kafka_topic:36 - Kafka topic: buzzline
+2025-01-22 17:40:06.142 | INFO     | __main__:get_kafka_consumer_group_id:43 - Kafka consumer group id: default_group
+2025-01-22 17:40:06.142 | INFO     | __main__:main:89 - Consumer: Topic 'buzzline' and group 'default_group'...
+2025-01-22 17:40:06.142 | INFO     | utils.utils_producer:get_kafka_broker_address:50 - Kafka broker address: localhost:9092
+2025-01-22 17:40:06.142 | INFO     | utils.utils_consumer:create_kafka_consumer:44 - Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-01-22 17:40:06.252 | INFO     | utils.utils_consumer:create_kafka_consumer:57 - Kafka consumer created successfully.
+2025-01-22 17:40:06.253 | INFO     | __main__:main:95 - Polling messages from topic 'buzzline'...
+2025-01-22 17:40:06.566 | INFO     | __main__:process_message:61 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:06.566 | INFO     | __main__:process_message:61 - Processing message: My code works... I think.
+2025-01-22 17:40:06.567 | INFO     | __main__:process_message:61 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:40:06.567 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: Kafka producer: now with extra buzz.
+2025-01-22 17:40:06.567 | INFO     | __main__:process_message:61 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:40:06.568 | INFO     | __main__:process_message:61 - Processing message: 404: Funny message not found.
+2025-01-22 17:40:06.568 | INFO     | __main__:process_message:61 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:06.568 | INFO     | __main__:process_message:61 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:06.568 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:06.569 | INFO     | __main__:process_message:61 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:40:06.569 | INFO     | __main__:process_message:61 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:06.569 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:06.570 | INFO     | __main__:process_message:61 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:40:06.570 | INFO     | __main__:process_message:61 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:06.570 | INFO     | __main__:process_message:61 - Processing message: My code works... I think.
+2025-01-22 17:40:07.137 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:40:07.137 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:40:07.139 | INFO     | __main__:process_message:61 - Processing message: Kafka producer: now with extra buzz.
+2025-01-22 17:40:07.139 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: Kafka producer: now with extra buzz.
+2025-01-22 17:40:08.138 | INFO     | __main__:generate_messages:82 - Generated buzz: I put the 'stream' in data streaming.
+2025-01-22 17:40:08.138 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I put the 'stream' in data streaming.
+2025-01-22 17:40:08.139 | INFO     | __main__:process_message:61 - Processing message: I put the 'stream' in data streaming.
+2025-01-22 17:40:09.139 | INFO     | __main__:generate_messages:82 - Generated buzz: 404: Funny message not found.
+2025-01-22 17:40:09.140 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': 404: Funny message not found.
+2025-01-22 17:40:09.144 | INFO     | __main__:process_message:61 - Processing message: 404: Funny message not found.
+2025-01-22 17:40:10.141 | INFO     | __main__:generate_messages:82 - Generated buzz: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:10.141 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:10.144 | INFO     | __main__:process_message:61 - Processing message: Parallel universes exist. In one, my code works on the first try.
+2025-01-22 17:40:11.143 | INFO     | __main__:generate_messages:82 - Generated buzz: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:11.144 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:11.147 | INFO     | __main__:process_message:61 - Processing message: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:11.148 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: Debugging: where you stare at code until it stares back.
+2025-01-22 17:40:12.145 | INFO     | __main__:generate_messages:82 - Generated buzz: The cake is a lie, but the topic is real.
+2025-01-22 17:40:12.147 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': The cake is a lie, but the topic is real.
+2025-01-22 17:40:12.152 | INFO     | __main__:process_message:61 - Processing message: The cake is a lie, but the topic is real.
+2025-01-22 17:40:13.149 | INFO     | __main__:generate_messages:82 - Generated buzz: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:13.150 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:13.155 | INFO     | __main__:process_message:61 - Processing message: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:13.156 | WARNING  | __main__:process_message:68 - ALERT! Message matched pattern: There are 10 types of people: those who understand binary and those who don't.
+2025-01-22 17:40:14.152 | INFO     | __main__:generate_messages:82 - Generated buzz: I'm not lazy, just buffering.
+2025-01-22 17:40:14.153 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': I'm not lazy, just buffering.
+2025-01-22 17:40:14.158 | INFO     | __main__:process_message:61 - Processing message: I'm not lazy, just buffering.
+2025-01-22 17:40:15.155 | INFO     | __main__:generate_messages:82 - Generated buzz: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:15.156 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:15.160 | INFO     | __main__:process_message:61 - Processing message: Why don't scientists trust atoms? Because they make up everything!
+2025-01-22 17:40:15.369 | WARNING  | __main__:main:102 - Consumer interrupted by user.
+2025-01-22 17:40:15.374 | INFO     | __main__:main:107 - Kafka consumer for topic 'buzzline' closed.
+2025-01-22 17:40:15.375 | INFO     | __main__:main:109 - END consumer for topic 'buzzline' and group 'default_group'.
+2025-01-22 17:40:16.157 | INFO     | __main__:generate_messages:82 - Generated buzz: My code works... I think.
+2025-01-22 17:40:16.157 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': My code works... I think.
+2025-01-22 17:40:17.158 | INFO     | __main__:generate_messages:82 - Generated buzz: Kafka producer: now with extra buzz.
+2025-01-22 17:40:17.160 | INFO     | __main__:generate_messages:84 - Sent message to topic 'buzzline': Kafka producer: now with extra buzz.
+2025-01-22 17:40:17.267 | WARNING  | __main__:generate_messages:87 - Producer interrupted by user.
+2025-01-22 17:40:17.269 | INFO     | __main__:generate_messages:92 - Kafka producer closed.
+2025-01-22 17:40:17.270 | INFO     | __main__:main:133 - END producer.
